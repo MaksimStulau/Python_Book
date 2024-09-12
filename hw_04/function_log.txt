@@ -1,0 +1,8 @@
+Function 'example_function' was called at 2024-09-08 21:53:25.568559
+Function 'example_function' was called at 2024-09-08 21:55:33.535640
+Function 'example_function' was called at 2024-09-08 21:57:27.866935
+Function 'example_function' was called at 2024-09-08 22:08:00.152642
+Function 'example_function' was called at 2024-09-08 22:10:26.922035
+Function 'example_function' was called at 2024-09-08 22:11:44.156785
+Function 'example_function' was called at 2024-09-08 22:12:04.007683
+Function 'example_function' was called at 2024-09-08 22:17:10.309194
