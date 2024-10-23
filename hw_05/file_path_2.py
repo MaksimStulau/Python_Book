@@ -24,7 +24,7 @@ def write_fibonacci_to_file(sequence, file_path):
         with open(file_path, 'w') as file:
             for number in sequence:
                 file.write(f"{number}\n")
-        print(f"Числа Фибоначчи успешно записаны в файл: {file_path}")
+        print(f"Числа Фибоначи записаны в: {file_path}")
     except Exception as e:
         print(f"Ошибка при записи в файл: {str(e)}")
 

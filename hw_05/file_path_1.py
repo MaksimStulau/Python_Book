@@ -17,13 +17,13 @@ print(new_file_path)
 def read_file(*args):
 
     try:
-        with open(file_path, 'r') as file:
+        with open(new_file_path, 'r') as file:
             return file.read()
 
     except FileNotFoundError:
-        return f"Error: File '{file_path}' not found."
+        return f"Error: File '{new_file_path}' not found."
     except PermissionError:
-        return f"Error: Permission denied for file '{file_path}'."
+        return f"Error: Permission denied for file '{new_file_path}'."
     except Exception as e:
         return f"An unexpected error occurred: {str(e)}"
 
