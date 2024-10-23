@@ -8,10 +8,10 @@ base_path = os.path.dirname(__file__)
 print(base_path)
 file_path = os.path.dirname(base_path)
 print(file_path)
-new_file_path = os.path.join(file_path, 'text_file.txt')
+new_file_path = os.path.join(file_path, 'text_file')
 print(new_file_path)
 
-#file_path = os.path.join(os.getcwd(), 'text_file.txt')
+#file_path = os.path.join(os.getcwd(), 'text_file')
 
 
 def read_file(*args):

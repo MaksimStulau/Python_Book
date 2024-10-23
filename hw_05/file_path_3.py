@@ -7,7 +7,7 @@ base_path = os.path.dirname(__file__)
 print(base_path)
 file_path = os.path.dirname(base_path)
 print(file_path)
-new_file_path = os.path.join(file_path, 'text_file.txt')
+new_file_path = os.path.join(file_path, 'text_file')
 print(new_file_path)
 
 
@@ -27,4 +27,4 @@ def sort_lines_by_length(file_path):
         print(f"Произошла ошибка: {str(e)}")
 
 
-sort_lines_by_length(file_path)
+sort_lines_by_length(new_file_path)
